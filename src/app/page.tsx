@@ -4,8 +4,6 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { Vortex } from "@/components/ui/vortex";
 import image1 from "@/assets/imagem1.png";
 import image2 from "@/assets/imagem2.png";
-import Image from "next/image";
-import logo from "@/assets/logo.png";
 
 export default function Home() {
   const testimonials = [

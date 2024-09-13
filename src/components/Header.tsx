@@ -10,8 +10,6 @@ import React from "react";
 import Image from "next/image";
 
 export default function Header() {
-  const [navbarOpen, setNavbarOpen] = React.useState(false);
-
   return (
     <header className="fixed flex top-0 w-full items-center justify-center bg-background/80 backdrop-blur-sm z-50  border-b-[1px] border-b-primary/10 shadow-md h-[60px]">
       <div className="flex flex-row w-full items-center justify-between md:px-5">
