@@ -12,7 +12,7 @@ import Image from "next/image";
 export default function Header() {
   return (
     <header className="fixed flex top-0 w-full items-center justify-center bg-background/80 backdrop-blur-sm z-50  border-b-[1px] border-b-primary/10 shadow-md h-[60px]">
-      <div className="flex flex-row w-full items-center justify-between px-3 md:px-5">
+      <div className="flex flex-row w-full items-center justify-between px-5">
         <Link href="/" className="text-2xl font-bold">
           <Image
             src={logo.src}
